@@ -4,8 +4,11 @@
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
+        
+<p id="demo">JavaScript can change HTML content.</p>
         <div class="center">
             <img src="ui/madi.png" class="img-medium"/>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
         </div>
         <br>
         <div class="center text-big bold">
