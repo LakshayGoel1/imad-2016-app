@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: rgb(120,125,250);
     margin-top: 75px;
 }
 
@@ -28,10 +28,6 @@ body {
 .img-cover {
     width: 500px;
     height: 200px;
-}
-
-.back {
-    background-color:rgb(120,125,250);
 }
 
 
