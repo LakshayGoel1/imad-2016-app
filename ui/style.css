@@ -4,6 +4,10 @@ body {
     margin-top: 75px;
 }
 
+.left {
+    text-align:left;
+}
+
 .center {
     text-align: center;
 }
