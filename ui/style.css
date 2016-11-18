@@ -1,9 +1,14 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(120,125,250);
-    margin-top: 75px;
+	background:linear-gradient(-45deg,#6fb98f,#021c1e,#00444f);
+	margin: 110px;
 }
 
+.marquee{
+background-color: rgb(13,231,242);
+    width: 119.3%;
+    margin-left: -108px;
+}
 .left {
     float: left;
 }
@@ -31,3 +36,7 @@ body {
 }
 
 
+.img-about {
+    width: 100px;
+    height: 100px;
+} .link{ width:30px; height:30px;} .center {text-align:center;} .background{ background-image: url("background2.jpg")}
