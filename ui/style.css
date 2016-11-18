@@ -39,4 +39,12 @@ background-color: rgb(13,231,242);
 .img-about {
     width: 100px;
     height: 100px;
-} .link{ width:30px; height:30px;} .center {text-align:center;} .background{ background-image: url("background2.jpg")}
+} .link{ width:30px; height:30px;} 
+.center {
+    text-align:center;
+    
+} 
+.background{ 
+    background-image: url("background2.jpg")
+    
+}
