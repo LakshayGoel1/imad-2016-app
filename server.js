@@ -8,7 +8,7 @@ var config = {
     database: 'lakshaygoel1',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: db-lakshaygoel1-4627
+    password: 'db-lakshaygoel1-4627'
 };
 
 var pool = new Pool(config);
