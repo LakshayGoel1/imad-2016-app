@@ -3,6 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 var Pool = require('pg').Pool;
 
+
 var config = {
     user: 'lakshaygoel1',
     database: 'lakshaygoel1',
@@ -10,6 +11,13 @@ var config = {
     port: '5432',
     password: 'db-lakshaygoel1-4627'
 };
+
+var app = express();
+app.use(morgan('combined'));
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
 
 var pool = new Pool(config);
 app.get('/test.db', function (req, res) {
@@ -24,12 +32,6 @@ app.get('/test.db', function (req, res) {
     });
 });
 
-var app = express();
-app.use(morgan('combined'));
-
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
